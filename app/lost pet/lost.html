@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="lost.css">
+	<title>寵物協尋</title>
+</head>
+
+<body onload="initCards()">
+	<h1 id="title">寵物協尋</h1>
+
+	<div id="filter">
+		<label>晶片號碼
+			<input type="text" name="chip_id" id="chip_id" maxlength="25">
+		</label>
+
+		<label>種類
+			<select id="type">
+				<option>無</option>
+				<option>狗</option>
+				<option>貓</option>
+				<option>其他</option>
+			</select>
+		</label>
+
+		<label>品種
+			<input type="text" name="breed" id="breed" maxlength="20">
+		</label>
+
+		<label>性別
+			<select id="sex">
+				<option>無</option>
+				<option>公</option>
+				<option>母</option>
+			</select>
+		</label>
+
+		<label>顏色
+			<input type="text" name="color" id="color" maxlength="30">
+		</label>
+
+		<button class="submitButton" onclick="filterCards()">Submit</button>
+	</div>
+
+	<div id="details"></div>
+
+	<div id="pets-container"></div>
+
+<script type="text/javascript" src="lost.js"></script>
+<script type="text/javascript" src="../exception.js"></script>
+
+</body>
+</html>

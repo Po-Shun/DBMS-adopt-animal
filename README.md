@@ -1,8 +1,1 @@
-"# Computer-organization" 
-"# Rush-Hour" 
-"# Rush-Hour" 
-"# Rush-Hour" 
-"# Rush-Hour" 
-"# Rush-Hour" 
-"# Rush-Hour" 
-"# DBMS-adopt-animal" 
+# DBMS-Final-Project
